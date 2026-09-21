@@ -1,0 +1,237 @@
+{
+  "nb_cv_anterieures": {
+    "type": "numerique",
+    "min": 1.0,
+    "max": 13.0,
+    "valeur_defaut": 4.0
+  },
+  "nb_non_supprimees": {
+    "type": "numerique",
+    "min": 0.0,
+    "max": 6.0,
+    "valeur_defaut": 0.0
+  },
+  "taux_suppression": {
+    "type": "numerique",
+    "min": 0.0,
+    "max": 1.0,
+    "valeur_defaut": 1.0
+  },
+  "delai_depuis_cv_prec": {
+    "type": "numerique",
+    "min": 38.0,
+    "max": 1027.5299999999988,
+    "valeur_defaut": 357.0
+  },
+  "duree_suivi_cv": {
+    "type": "numerique",
+    "min": 159.0,
+    "max": 3527.0,
+    "valeur_defaut": 1511.0
+  },
+  "anciennete_traitement_ans": {
+    "type": "numerique",
+    "min": 0.9774127310061602,
+    "max": 19.358220396988354,
+    "valeur_defaut": 8.060232717316905
+  },
+  "delai_admission_initiation_j": {
+    "type": "numerique",
+    "min": -4287.65,
+    "max": 2186.5899999999965,
+    "valeur_defaut": 0.0
+  },
+  "age_a_la_cv": {
+    "type": "numerique",
+    "min": 7.972292950034224,
+    "max": 73.47449691991785,
+    "valeur_defaut": 44.888432580424364
+  },
+  "intervalle_moyen_cv_j": {
+    "type": "numerique",
+    "min": 129.15666666666667,
+    "max": 820.8824999999997,
+    "valeur_defaut": 335.0
+  },
+  "Poids Dernière Visite (KG)": {
+    "type": "numerique",
+    "min": 23.0,
+    "max": 104.0,
+    "valeur_defaut": 65.0
+  },
+  "Nombre Jour de Traitement": {
+    "type": "numerique",
+    "min": 30.0,
+    "max": 180.0,
+    "valeur_defaut": 180.0
+  },
+  "cv_precedente": {
+    "type": "categoriel",
+    "modalites": [
+      "NON SUPPRIME",
+      "SUPPRIME"
+    ],
+    "valeur_defaut": "SUPPRIME"
+  },
+  "premiere_cv": {
+    "type": "categoriel",
+    "modalites": [
+      "NON SUPPRIME",
+      "SUPPRIME"
+    ],
+    "valeur_defaut": "SUPPRIME"
+  },
+  "Regions": {
+    "type": "categoriel",
+    "modalites": [
+      "Bere",
+      "Gbokle",
+      "Haut-Sassandra",
+      "Marahoue",
+      "San-Pedro",
+      "Site inexistant",
+      "Worodougou"
+    ],
+    "valeur_defaut": "Haut-Sassandra"
+  },
+  "Districts": {
+    "type": "categoriel",
+    "modalites": [
+      "Bouafle",
+      "Daloa",
+      "Dianra",
+      "Issia",
+      "Kani",
+      "Kounahiri",
+      "Mankono",
+      "San-Pedro",
+      "Sassandra",
+      "Sinfra",
+      "Site inexistant",
+      "Tabou",
+      "Vavoua",
+      "Zoukougbeu",
+      "Zuenoula",
+      "seguela"
+    ],
+    "valeur_defaut": "Daloa"
+  },
+  "Sexe": {
+    "type": "categoriel",
+    "modalites": [
+      "F",
+      "M"
+    ],
+    "valeur_defaut": "F"
+  },
+  "Statut Matrimoniale": {
+    "type": "categoriel",
+    "modalites": [
+      "Concubinage",
+      "Célibataire",
+      "Divorcé(e)",
+      "Marié(e)",
+      "Veuf(ve)"
+    ],
+    "valeur_defaut": "Concubinage"
+  },
+  "Niveau Etude": {
+    "type": "categoriel",
+    "modalites": [
+      "Non Scolarisé(e)",
+      "Non précisé",
+      "Primaire",
+      "Secondaire",
+      "Supérieur"
+    ],
+    "valeur_defaut": "Non Scolarisé(e)"
+  },
+  "Conjoint Informe": {
+    "type": "categoriel",
+    "modalites": [
+      "Non",
+      "Oui"
+    ],
+    "valeur_defaut": "Non"
+  },
+  "Pop Haut Risque": {
+    "type": "categoriel",
+    "modalites": [
+      "NON",
+      "OUI"
+    ],
+    "valeur_defaut": "NON"
+  },
+  "Type Population": {
+    "type": "categoriel",
+    "modalites": [
+      "Général",
+      "HSH",
+      "Non précisé",
+      "PS",
+      "Population Carcerale",
+      "UD"
+    ],
+    "valeur_defaut": "Général"
+  },
+  "Type VIH": {
+    "type": "categoriel",
+    "modalites": [
+      "Non précisé",
+      "VIH 1",
+      "VIH 1 + 2",
+      "VIH 2"
+    ],
+    "valeur_defaut": "VIH 1"
+  },
+  "Ligne Thérapeutique": {
+    "type": "categoriel",
+    "modalites": [
+      "Ligne 1",
+      "Ligne 2",
+      "Ligne 3"
+    ],
+    "valeur_defaut": "Ligne 1"
+  },
+  "Dernier Régime Prescrit": {
+    "type": "categoriel",
+    "modalites": [
+      "ABC 3TC DTG",
+      "TDF 3TC ATV/r",
+      "TDF 3TC DTG",
+      "TDF 3TC DTG DTG",
+      "TDF 3TC LPV/r"
+    ],
+    "valeur_defaut": "TDF 3TC DTG"
+  },
+  "Statut CTX": {
+    "type": "categoriel",
+    "modalites": [
+      "Début ou reprise",
+      "En cours",
+      "Sans traitement CTX"
+    ],
+    "valeur_defaut": "En cours"
+  },
+  "Modèle Soins Différenciés": {
+    "type": "categoriel",
+    "modalites": [
+      "Autre modèle",
+      "Dispensation 6 mois ARV",
+      "Dispensation accélérée",
+      "Distribution communautaire",
+      "Groupe d'adhérence / auto-support"
+    ],
+    "valeur_defaut": "Dispensation 6 mois ARV"
+  },
+  "Observance du Traitement": {
+    "type": "categoriel",
+    "modalites": [
+      "Non",
+      "Non précisé",
+      "Oui",
+      "Sans Traitement"
+    ],
+    "valeur_defaut": "Oui"
+  }
+}
